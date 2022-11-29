@@ -1,0 +1,17 @@
+Data student;
+input name$ major$ age height;
+datalines;
+Alex History 23 75
+Morgan Education 22 72
+Josh Engineering 22 73
+Tyler Engineering 21 74
+Julian Engineering 22 70
+Katheryn Education 74 19
+Abi Education 70 18
+;
+project means data student;
+vars age height;
+run;
+
+proc univariate data student;
+run;
