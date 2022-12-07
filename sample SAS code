@@ -1,3 +1,4 @@
+*understanding github;
 Data student;
 input name$ major$ age height;
 datalines;
